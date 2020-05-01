@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Mui Layout
+
+This starter project comes with 2 layout, Dashboard & Blog.
+
+run `yarn start` and navigate to `/dashboard` or `/blog`.
+
+See more info about [@mui-treasury/layout](https://mui-treasury.com/layout)
+
 ## Available Scripts
 
 In the project directory, you can run:
