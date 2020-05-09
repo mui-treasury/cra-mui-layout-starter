@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
-    "@mui-treasury/layout": "^4.0.0-alpha.4",
+    "@mui-treasury/layout": "^4.0.0",
     "@mui-treasury/mockup": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,6 +14,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "source-map-explorer": "^2.4.2",
     "styled-components": "^5.1.0"
   },
   "jest": {
@@ -25,6 +26,7 @@
     ]
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

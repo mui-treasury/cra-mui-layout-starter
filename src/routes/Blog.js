@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Layout, { getLayoutComponents } from "@mui-treasury/layout";
 import Toolbar from "@material-ui/core/Toolbar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import {
@@ -10,19 +9,28 @@ import {
   ContentMockUp,
   FooterMockUp,
 } from "@mui-treasury/mockup/layout";
-
-const {
+import Layout, {
   Root,
-  Header,
-  DrawerSidebar,
-  SidebarTrigger,
-  SidebarContent,
-  CollapseBtn,
-  Content,
-  InsetContainer,
-  InsetSidebar,
-  InsetFooter,
-} = getLayoutComponents(styled);
+  getHeader,
+  getDrawerSidebar,
+  getSidebarTrigger,
+  getSidebarContent,
+  getCollapseBtn,
+  getContent,
+  getInsetContainer,
+  getInsetSidebar,
+  getInsetFooter,
+} from "@mui-treasury/layout";
+
+const Header = getHeader(styled)
+const DrawerSidebar = getDrawerSidebar(styled)
+const SidebarTrigger = getSidebarTrigger(styled)
+const SidebarContent = getSidebarContent(styled)
+const CollapseBtn = getCollapseBtn(styled)
+const Content = getContent(styled)
+const InsetContainer = getInsetContainer(styled)
+const InsetSidebar = getInsetSidebar(styled)
+const InsetFooter = getInsetFooter(styled)
 
 const scheme = Layout();
 
