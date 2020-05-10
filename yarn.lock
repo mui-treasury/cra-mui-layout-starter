@@ -1354,10 +1354,10 @@
     clsx "^1.0.4"
     use-deep-compare-effect "^1.3.0"
 
-"@mui-treasury/layout@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@mui-treasury/layout/-/layout-4.0.0.tgz#dfbbb98fe4b9137357ddcc8dd6853f45c083790b"
-  integrity sha512-fsCjFZQkdoNpEf6s1ncuJmDc7NbjBcsYJ24alLAWJerNoPncvSUAoE9gPA6d3qqUN3jfHPmB5adT3A6Z+dH28w==
+"@mui-treasury/layout@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@mui-treasury/layout/-/layout-4.1.0.tgz#a9e4e3e348c231a947e5a476c54b3586f7243dd3"
+  integrity sha512-UNr2/XgT58q5cUB059EFANP9ocmLzR6kMQEBjy2WrSB1Z5Sjza5C3ieFzjwpDSMWB5cIb0Ucl6mA8qbelSznHw==
   dependencies:
     debounce "^1.2.0"
     deepmerge "^4.2.2"
