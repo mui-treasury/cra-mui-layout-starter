@@ -1,76 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Create-react-app Material-UI Layout starter
 
-## Mui Layout
+![image](https://user-images.githubusercontent.com/18292247/81573393-9fb1d800-93ce-11ea-8c08-06cfa858fe91.png)
 
-This starter project comes with 2 layout, Dashboard & Blog.
+[![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+![dependencies status](https://david-dm.org/mui-treasury/cra-mui-layout-starter.svg)
 
-run `yarn start` and navigate to `/dashboard` or `/blog`.
+Supercharge your new Material-UI project with Mui Treasury Layout.
 
-See more info about [@mui-treasury/layout](https://mui-treasury.com/layout)
+v4 just came out in May 2020 with whole new cool stuffs.
 
-## Available Scripts
+- Reduce JS calculation and leverage css-in-js for server side rendering (no more blip at first paint)
+- Keep the library lean as much as possible. Get rid of lodash and don't rely on specific css-in-js lib (jss is still used internally in Material-UI, so we cannot remove it)
+- Improve developer experience by rewriting with typescript and design new API
+- Add more documentation & troubleshoot requested from developers (thanks everyone)
+- Reduce bundle size and make it tree shakeable!
 
-In the project directory, you can run:
+## Why you need this? 🤔
+with power of gatsby and superb Material-UI, you can build your next project super fast but! do you want to start the whole layout from scratch?
 
-### `yarn start`
+Layout is not easy as it is, that's why need to use Mui Treasury Layout.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features 🛠
+Mui Treasury Layout provides wide range of layout that you can customize to fit your need.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Persistent behavior](https://mui-treasury.com/layout/features/persistent-behavior)
+- [Auto collapse](https://mui-treasury.com/layout/features/auto-collapse)
+- [Header Magnet](https://mui-treasury.com/layout/features/header-magnet)
 
-### `yarn test`
+## Documentation 📖
+- [Intro to layout](https://mui-treasury.com/layout/)
+- [Tutorials](https://mui-treasury.com/layout/tutorials/dashboard-layout/)
+- [Advanced usage](https://mui-treasury.com/layout/advanced/controlling-sidebar/)
+- [Features](https://mui-treasury.com/layout/features/persistent-behavior)
+- [API reference](https://mui-treasury.com/layout/api-reference/layout-builder)
+- [Examples](https://mui-treasury.com/layout/examples/custom-theme?bgColor=d4b397)
+- [Clones](https://mui-treasury.com/layout/clones/reactjs?bgColor=b6c0d4)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Examples 👍
+Here is some clone examples that we made from this lib.
 
-### `yarn build`
+- [**React JS official**](https://mui-treasury.com/layout/clones/reactjs?bgColor=b6c0d4)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/18292247/81502584-08368180-9309-11ea-92de-334e92a095df.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [**Messenger**](https://mui-treasury.com/layout/clones/messenger?bgColor=rgb(0,153,255)&dark=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/18292247/81502639-4a5fc300-9309-11ea-841a-18d698a6acc0.png)
 
-### `yarn eject`
+- [**Shopping cart**](https://mui-treasury.com/layout/clones/shopping-cart?bgColor=EAEEF1)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![image](https://user-images.githubusercontent.com/18292247/81502663-6d8a7280-9309-11ea-88ae-faeebbdb9ddf.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Get started 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+First, clone this repo
+```bash
+$ git clone https://github.com/mui-treasury/cra-mui-layout.git
+$ cd cra-mui-layout
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Run the project and see the result in http://localhost:3000/ 😃
 
-## Learn More
+```bash
+$ yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Need help?
+If you need help or stuck at installation, [open an issue here](https://github.com/mui-treasury/cra-mui-layout-starter/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+But if you have an issue about Mui Treasury Layout, [open an issue here](https://github.com/siriwatknp/mui-treasury/issues).
 
-### Code Splitting
+## Contributing 💪
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+PR is welcome if you want to add more examples in pages or improve anything no matter how small it is.
 
-### Analyzing the Bundle Size
+## License 📝
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT.
