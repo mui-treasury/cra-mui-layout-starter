@@ -1,29 +1,27 @@
 {
-  "name": "cra-mui-layout",
+  "name": "cra-layout-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.9.12",
-    "@material-ui/icons": "^4.9.1",
-    "@mui-treasury/layout": "^4.1.0",
-    "@mui-treasury/mockup": "^1.1.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "source-map-explorer": "^2.4.2",
-    "styled-components": "^5.1.0"
-  },
-  "jest": {
-    "transform": {
-      "\\.(ts|tsx|js|jsx)?$": "babel-jest"
-    },
-    "transformIgnorePatterns": [
-      "/^((?!node_modules/@mui-treasury/layout$).)*$/"
-    ]
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@material-ui/core": "5.0.0-alpha.34",
+    "@material-ui/icons": "5.0.0-alpha.34",
+    "@mui-treasury/layout": "5.0.0-alpha.9",
+    "@mui-treasury/mockup": "5.0.0-alpha.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "source-map-explorer": "2.5.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
@@ -33,7 +31,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
