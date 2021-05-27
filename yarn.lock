@@ -1604,15 +1604,15 @@
     prop-types "^15.7.2"
     react-is "^17.0.0"
 
-"@mui-treasury/layout@5.0.0-alpha.9":
-  version "5.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/@mui-treasury/layout/-/layout-5.0.0-alpha.9.tgz#d6f3c75c7ab66ae23cf0beca08d4de9a528ba14d"
-  integrity sha512-RiGCbbaxl2dsLhEh7SGRo3mD1IYCFaZ/NozeKS65nzbGaqq+Ldws85AuLN63rCG5Q9X9O9KNx8hpvxVYstvdcQ==
+"@mui-treasury/layout@5.0.0-alpha.12":
+  version "5.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@mui-treasury/layout/-/layout-5.0.0-alpha.12.tgz#29dfa239bb59f0d9955695c2bbabbda5bae31c99"
+  integrity sha512-B0Oe/gKj1/H8VE4YxyDBA7gmrH8r3SgGJsFNKD8/GZ2wZQDUCRg8deps313UJeDRgjgDkAH9wL1nZq/G/d5InA==
 
-"@mui-treasury/mockup@5.0.0-alpha.1":
-  version "5.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@mui-treasury/mockup/-/mockup-5.0.0-alpha.1.tgz#8fbb609a5f362dcedfd8bb818334ecade03306f3"
-  integrity sha512-d7O4GBUU2gXUGyn0f7u5B1BhIUn2Y+ywMs6hKyrdtLQUgMkxo+S10oDe/1AKWXgNyphg15tvqz7GX0cwbA0Nog==
+"@mui-treasury/mockup@5.0.0-alpha.4":
+  version "5.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@mui-treasury/mockup/-/mockup-5.0.0-alpha.4.tgz#708108a12b336b49c489a981be4740a52a96c666"
+  integrity sha512-0fswbhivMF1mIce266cDM/Ud5DrNGk1vmQgciFcKyBCMTaZTR19VEKHmw1y3iMlPpQpKbJgTlT41VCLZ/CWw5A==
   dependencies:
     "@material-ui/core" "^5.0.0-alpha.34"
 

@@ -27,6 +27,7 @@ import {
   HeaderMockup,
   ContentMockup,
   NavSidebarMockup,
+  FooterMockup,
 } from "@mui-treasury/mockup/layout";
 
 function Dashboard() {
@@ -63,7 +64,16 @@ function Dashboard() {
       }}
     >
       <CssBaseline />
-      <Header>
+      <Header
+        sx={{
+          bgcolor: (theme) =>
+            theme.palette.mode === "dark"
+              ? "rgba(255,255,255,0.05"
+              : "background.paper",
+          borderBottom: "1px solid",
+          borderColor: "divider",
+        }}
+      >
         <HeaderMockup
           trigger={
             <EdgeTrigger target={{ anchor: "left", field: "open" }}>
@@ -74,7 +84,6 @@ function Dashboard() {
               )}
             </EdgeTrigger>
           }
-          sx={{ px: 2, py: 1, flex: 1 }}
         />
       </Header>
       <EdgeSidebar anchor="left">
@@ -103,7 +112,9 @@ function Dashboard() {
           <ContentMockup />
         </Container>
       </Content>
-      <Footer>Footer</Footer>
+      <Footer>
+        <FooterMockup />
+      </Footer>
     </Root>
   );
 }

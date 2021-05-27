@@ -29,6 +29,8 @@ import {
   HeaderMockup,
   ContentMockup,
   NavSidebarMockup,
+  FooterMockup,
+  LinkGroup,
 } from "@mui-treasury/mockup/layout";
 
 const Blog = () => {
@@ -60,14 +62,25 @@ const Blog = () => {
             md: {
               position: "fixed",
               width: 256,
+              headerMagnetEnabled: true,
             },
           },
         },
       }}
     >
       <CssBaseline />
-      <Header>
+      <Header
+        sx={{
+          bgcolor: (theme) =>
+            theme.palette.mode === "dark"
+              ? "rgba(255,255,255,0.05"
+              : "background.paper",
+          borderBottom: "1px solid",
+          borderColor: "divider",
+        }}
+      >
         <HeaderMockup
+          sx={{ py: 0 }}
           trigger={
             <EdgeTrigger target={{ anchor: "left", field: "open" }}>
               {(open, setOpen) => (
@@ -77,7 +90,6 @@ const Blog = () => {
               )}
             </EdgeTrigger>
           }
-          sx={{ px: 2, py: 1, flex: 1 }}
         />
       </Header>
       <EdgeSidebar anchor="left">
@@ -88,19 +100,31 @@ const Blog = () => {
       <Content>
         <InsetContainer
           rightSidebar={
-            <InsetSidebar anchor="right" sx={{ bgcolor: "grey.50" }}>
-              <NavSidebarMockup />
+            <InsetSidebar sx={{ bgcolor: "grey.50", pl: 2, pt: 3 }}>
+              <LinkGroup />
+              <br />
+              <br />
+              <LinkGroup />
             </InsetSidebar>
           }
         >
-          <Box sx={{ py: 3, pr: 5, flexGrow: 1 }}>
+          <Box sx={{ py: 3, pr: { xs: 0, md: 5 } }}>
             <ContentMockup />
           </Box>
         </InsetContainer>
       </Content>
-      <Footer>
+      <Footer
+        sx={{
+          bgcolor: (theme) =>
+            theme.palette.mode === "dark"
+              ? "rgba(255,255,255,0.07)"
+              : "grey.50",
+        }}
+      >
         <Container>
-          <InsetAvoidingView>Footer</InsetAvoidingView>
+          <InsetAvoidingView sx={{ pr: 5 }}>
+            <FooterMockup disableGutters />
+          </InsetAvoidingView>
         </Container>
       </Footer>
     </Root>
