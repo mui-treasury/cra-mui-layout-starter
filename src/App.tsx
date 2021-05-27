@@ -13,7 +13,7 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>@mui-treasury/layout starter</p>
-        <Grid container spacing={4} justify="center">
+        <Grid container spacing={4} justifyContent="center">
           <Grid item>
             <Link className="App-link" to="/dashboard">
               Dashboard
