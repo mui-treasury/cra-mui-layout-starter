@@ -1,6 +1,6 @@
 # Create-react-app Material-UI Layout starter
 
-![image](https://user-images.githubusercontent.com/18292247/81573393-9fb1d800-93ce-11ea-8c08-06cfa858fe91.png)
+![image](https://user-images.githubusercontent.com/18292247/119755936-036d4d00-becd-11eb-9b81-b9080f60b808.png)
 
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
